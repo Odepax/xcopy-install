@@ -17,7 +17,7 @@
 		<meta name="description" content="Unconventional software installation toolkit, for those who think outside the box and like to stay away from the optimal."/>
 		<meta property="og:description" content="Unconventional software installation toolkit, for those who think outside the box and like to stay away from the optimal."/>
 		<meta name="twitter:card" content="summary_large_image"/>
-		<meta name="theme-color" content="#60d48b"/> <!-- TODO: change -->
+		<meta name="theme-color" content="#c5d617"/>
 
 		<style>
 			@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500&display=swap");
@@ -26,9 +26,9 @@
 				--BACKGROUND: #1f1c21;
 				--FOREGROUND: #f0e0b2;
 				--SHADOW: #000000;
-				--LIME: #95ea1c; /* TODO: change */
-				--TEAL: #60d48b; /* TODO: change */
-				--BLUE: #32bfea; /* TODO: change */
+				--ACCENT-1: #fdbe11;
+				--ACCENT-2: #c5d617;
+				--ACCENT-3: #95ea1c;
 			}
 			* {
 				margin: 0;
@@ -69,6 +69,18 @@
 				font-size: 24px;
 				font-weight: 300;
 			}
+			nav {
+				padding: 64px;
+				text-align: center;
+			}
+			a {
+				display: inline-block;
+				padding: 0 16px;
+				color: var(--ACCENT-3);
+			}
+			a:hover, a:focus {
+				color: var(--ACCENT-1);
+			}
 		</style>
 	</head>
 	<body>
@@ -79,6 +91,10 @@
 				<strong>Unconventional software installation toolkit, for those who think outside the box and like to stay away from the optimal.</strong>
 			</p>
 		</header>
+		<nav>
+			<a href="https://github.com/Odepax/xcopy-install/discussions">Discussions</a>
+			<a href="https://github.com/Odepax/xcopy-install/issues">Issues</a>
+		</nav>
 		<footer>
 			<p>
 				Copyright &copy; 2022 Odepax

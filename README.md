@@ -4,4 +4,4 @@ XCopy Install
 Installation
 ----
 
-Install the [XCopyInstall](https://www.nuget.org/packages/XCopyInstall) NuGet package.
+Install the [Odepax.XCopyInstall](https://www.nuget.org/packages/Odepax.XCopyInstall) NuGet package.
